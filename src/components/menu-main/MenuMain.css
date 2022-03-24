@@ -1,0 +1,6 @@
+.menu-main {
+    display: grid;
+    grid-template-columns: calc(100%/3) calc(100%/3) calc(100%/3);
+    justify-content: end;
+    grid-row-gap: 50px;
+}

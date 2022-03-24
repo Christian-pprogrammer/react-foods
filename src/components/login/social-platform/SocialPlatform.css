@@ -1,0 +1,10 @@
+div.social-platform {
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55%;
+    height: 50px;
+    margin: auto;
+}

@@ -1,0 +1,26 @@
+#menu {
+    padding-top: 30px;
+}
+
+.slider {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.slider.left {
+    background-color: #f3f3f3;
+}
+.slider.right {
+    background-color: #f54748;
+    margin-left: 20px;
+}
+
+.menu-sliders {
+    display: grid;
+    grid-template-columns: 90% auto;
+    justify-content: end;
+}

@@ -1,0 +1,21 @@
+.menu-card {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    background-image: url(../../../assets/caption.jpg);
+    background-size: contain cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+.menu-card a {
+    color: #fff;
+}
+.overlay {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.493), transparent);
+    width: 100%;
+    padding: 20px;
+}

@@ -1,0 +1,23 @@
+.our-services {
+    margin-top: 100px;
+    text-align: center;
+}
+p.what-we-serve {
+    color: var(--red-like-color);
+}
+.our-services h1 {
+    font-size: 50px;
+    color: rgb(19, 19, 19);
+}
+.about-services {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0px
+}
+.about-services img {
+    height: 150px;
+}
+
+.about-services h3 {
+    font-size: 30px;
+}

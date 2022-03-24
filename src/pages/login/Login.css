@@ -1,0 +1,17 @@
+#login h3, p {
+    text-align: center;
+    line-height: 25px;
+}
+
+form {
+    margin: fit-content;
+    width: 300px;
+    margin: auto;
+    padding-top: 50px;
+    border-radius: 20px;
+    color: rgb(53, 52, 52);
+}
+
+#login p {
+    margin-bottom: 30px;
+}
