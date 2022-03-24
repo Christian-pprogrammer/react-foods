@@ -25,7 +25,7 @@ function HomeMain() {
             <HappyCustomer />
         </div>
         <div id="thumbnail">
-            <img className='thumbnail-img' src={Person} alt="Eating image" />
+            <img className='thumbnail-img' src={Person} />
         </div>
     </div>
   )
