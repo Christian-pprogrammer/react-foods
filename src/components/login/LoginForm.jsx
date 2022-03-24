@@ -5,8 +5,11 @@ import SocialPlatform from './social-platform/SocialPlatform';
 import { Link } from 'react-router-dom';
 
 function LoginForm() {
+  const login = (e) => {
+    e.preventDefault();
+  }
   return (
-    <form className='login-form'>
+    <form className='login-form' onSubmit={login}>
         <h3>Hello Again!</h3>
         <p>Welcome back you've <br/> been missed!</p>
         <div>
